@@ -1,4 +1,4 @@
-# Copyright (C) 2015 VyOS maintainers and contributors
+# Copyright (C) 2015, 2016 VyOS maintainers and contributors
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License version 2 or later as
@@ -22,7 +22,7 @@ BUILD_DIR = 'build'
 BUILD_CONFIG = os.path.join(BUILD_DIR, 'build-config.json')
 
 # The default mirror was chosen entirely at random
-DEBIAN_MIRROR = 'http://ftp.nl.debian.org/debian/'
+DEBIAN_MIRROR = 'http://ftp.us.debian.org/debian/'
 
 DEBIAN_DISTRIBUTION = 'jessie'
 
